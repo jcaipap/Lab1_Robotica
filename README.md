@@ -1,11 +1,14 @@
 # Laboratorio 1 de Robótica
-### Presentado por:
-#### Andrés Holguín Restrepo 
-#### Julián Andrés Caipa Prieto
-### Presentado a: 
-#### Ing. Ricardo Emiro Ramírez H.
-#### Ing. Jhoan Sebastian Rodriguez R.
-
+## Universiad Nacional de Colombia
+## 2022-2
+***
+### Autores
+- Andrés Holguín Restrepo 
+- Julián Andrés Caipa Prieto
+### Profesores encargados
+- Ing. Ricardo Emiro Ramírez H.
+- Ing. Jhoan Sebastian Rodriguez R.
+***
 ## Introducción 
 El laboratorio #1 de la asignatura brinda un acercamiento inicial diseño y uso de herramientas, mediante la programación de rutinas asociadas a seguimiento de caminos modelados, tanto en simulación como en práctica con el uso de los robots disponibles. 
 
@@ -17,8 +20,8 @@ Se tienen los siguientes resultados de aprendizaje esperados:
 El trabajo se desarrollará sobre 3 ejes temáticos, el diseño de la herramienta, el proceso de calibración simulación/práctica y la generación de la rutina del robot. 
 
 La idea principal del laboratorio es diseñar e implementar una herramienta que permita fijar un marcador borrable al flanche del robot, y generar la rutina para que dicha herramienta dibuje las iniciales de los integrantes "AJA" (A: Andrés; JA: Julián Andrés)  sobre una superficie ubicada en el espacio de trabajo que cuenta con una cierta inclinación. 
-
-## Orden de subcarpetas:
+***
+## Orden de subcarpetas
 En este repositorio se encuentran las siguientes subcarpetas con sus correspondientes contenidos:
 - Diseño de la herramienta:  Explicación de metodología de diseño para la herramienta implementada.
 - Código en RAPID: Código implementado tanto en simulación como en implementación del laboratorio.
