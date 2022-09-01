@@ -7,21 +7,21 @@ Lo primero, es que el marcador no debe estar en dirección normal al plato, ya q
 
 ***
 ## Soporte del marcador
-Con base en lo mencionado anteriormente, se realizó un diseño de bajo costo el cual cumple con las especificaciones dadas. Lo primero fue utilizar una conexión en T de pvc de 3/4'', donde el orificio lateral se utiliza para el acople al plato y los otros dos orificios son utilizados para el marcador. Con esto, se colocan 6 empaques separados por pares en el marcador, los cuales permiten generar limites y estabilidad del movimiento prismático del marcador con respecto al agujero de la conexión T. A partir de esta configuración, se tiene un posible deslizamiento del marcador de casi 2cm, lo cual se considera suficiente como margen de seguridad ante la presión generada. Así mismo como los empaques generan estabilidad y límites en el movimiento, se utilizan cauchos en el extremo opuesto a la punta del marcador para que siempre se ejerza una presión suficiente para que la punta del marcador esté lo más extendida posible sin dañarla. por último, para facilitar la conexión entre la T y el acople soporte-plato, se utiliza un segmento de tubo de PVC de 3/4'' de 33mm de largo conectado al orificio lateral.
+Con base en lo mencionado anteriormente, se realizó un diseño de bajo costo el cual cumple con las especificaciones dadas. Lo primero fue utilizar una conexión en T de pvc de 3/4'', donde el orificio lateral se utiliza para el acople al plato y los otros dos orificios son utilizados para el marcador. Con esto, se colocan 6 empaques separados por pares en el marcador, los cuales permiten generar limites y estabilidad del movimiento prismático del marcador con respecto al agujero de la conexión T. A partir de esta configuración, se tiene un posible deslizamiento del marcador de casi 2cm, lo cual se considera suficiente como margen de seguridad ante la presión generada. Así mismo como los empaques generan estabilidad y límites en el movimiento, se utilizan cauchos en el extremo opuesto a la punta del marcador, donde se ubica la tapa del mismo,esto con el fin de que siempre se ejerza una presión suficiente para que la punta del marcador esté lo más extendida posible sin dañarla. por último, para facilitar la conexión entre la T y el acople soporte-plato, se utiliza un segmento de tubo de PVC de 3/4'' de 33mm de largo conectado al orificio lateral.
 
 Toda esta explicación se muestra en las siguientes imagenes:
 
 Marcador con sus empaques:
 
-![Marcador y empaques]()
+![Marcador y empaques](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Dise%C3%B1o%20de%20la%20herramienta/Imagenes/marcador.jpg?raw=true)
 
 Conexión T con segmento de PVC lateral:
 
-![Conexión T con segmento de PVC lateral]()
+![Conexión T con segmento de PVC lateral](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Dise%C3%B1o%20de%20la%20herramienta/Imagenes/conT.jpg?raw=true)
 
-Conjunto del soporte del amrcardor:
+Conjunto del soporte del marcardor:
 
-![Conjunto del soporte del amrcardor]()
+![Conjunto del soporte del marcardor](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Dise%C3%B1o%20de%20la%20herramienta/Imagenes/conjSop.jpg?raw=true)
 
 
 ***
@@ -47,9 +47,9 @@ Como se puede evidenciar, se cumplen las condiciones para el acople por tornillo
 
 A partir de este modelado 3D, se utiliza el software Repetier Host y una impresora 3D para generar la pieza. Cabe resaltar que, al ser una impresora propia, la calidad no es tan alta como lo hubiera sido mandar a imprimir. Se imprime en PLA con capas de 0.3mm de espesor y densidad de pieza del 20%. Los resultados de la impresión se muestran a continuación:
 
-![Modelo 3D en Repetier-Host]()
+![Modelo 3D en Repetier-Host](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Dise%C3%B1o%20de%20la%20herramienta/Imagenes/3DRH.png?raw=true)
 
-![Acople impreso]()
+![Acople impreso](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Dise%C3%B1o%20de%20la%20herramienta/Imagenes/3DI.jpg?raw=true)
 
 ***
 # Resultados finales de la herramienta
