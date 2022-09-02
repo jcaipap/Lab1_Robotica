@@ -126,7 +126,7 @@ Por último, para anclar la herramienta al robot, se arrastra en el árbol de pr
 
 El siguiente paso a desarrollar es el objeto de trabajo. Para definir el Workobject se realiza de forma análoga a la herramienta, se importa una geometría sobre la cual se vaya a trabajar, en este caso es el diseño de objeto generado previamente, este se compone de una rampa generada al unir dos tableros cuadrados de 28.7cm de arista. A partir de esta definición, se genera su modelado y se realiza la inscripción de las iniciales de los integrandes del grupo **AJA**. A continuación se muestra una imagen de este objeto.
 
-![Estación](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Videos/imagenes/S1.png?raw=true)
+![Workobject](https://github.com/jcaipap/Lab1_Robotica_Caipa_Holguin/blob/main/Videos/imagenes/AJA.png?raw=true)
 
 
 Una vez se importa este objeto, se ubica aproximadamente en la posición real que va ocupar sobre el área de trabajo, puntualmente, con origen en (500,200,0). 
