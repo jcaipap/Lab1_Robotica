@@ -21,11 +21,13 @@ El trabajo se desarrollará sobre 3 ejes temáticos, el diseño de la herramient
 
 La idea principal del laboratorio es diseñar e implementar una herramienta que permita fijar un marcador borrable al flanche del robot, y generar la rutina para que dicha herramienta dibuje las iniciales de los integrantes "AJA" (A: Andrés; JA: Julián Andrés)  sobre una superficie ubicada en el espacio de trabajo que cuenta con una cierta inclinación. 
 ***
-## Orden de subcarpetas
+## Explicación de subcarpetas
 En este repositorio se encuentran las siguientes subcarpetas con sus correspondientes contenidos:
 - Diseño de la herramienta:  Imágenes relacionadas al diseño de la herramienta.
 - Código en RAPID: Código implementado tanto en simulación como en implementación del laboratorio.
 - Videos: Videos generados en simulación como en implementación con sus respectivas imágenes.
+
+Mientras que en esta carpeta se tiene el informe realizado de la práctica.
 
 ***
 ## Diseño de la herramienta
@@ -123,9 +125,6 @@ Ya contando con la herramienta y el objeto de trabajo, se procede a definir las 
 - El primer movimiento se trata de uno de tipo lineal, y en este el robot pasa entre targets, los cuales se denominan "Punto", el cual representa una ubicación en el espacio a la cual llegará la herramienta, y dicho punto tiene su propio sistema de referencia coordenado, con lo cual el robot se orienta para posicionar el TCP en el sistema del punto y quedar en la posición y orientación definida por el target. 
 - El segundo movimiento se trata de uno de tipo articular, en el cual el robot pasa de un estado de artículaciones a otro, llegando a unos targets denominados "Posición de ejes", en los cuales se coloca información sobre los grados a los cuales se van a posicionar las artículaciones del robot cuando se llegue a dicho target. 
 - zona y velocidad xd
-
-
-
 
 
 
