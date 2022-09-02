@@ -43,6 +43,16 @@ Posteriormente, se requiere ubicar el TCP de la herramienta. Para ello existen d
 Por último, para anclar la herramienta la robot, se arrastra en el árbol de procesos hasta el robot y se acepta el cuadro de diálogo que indica sobre la actulización de la herramienta. Al activar la visibilidad del robot debería poder verse la herramienta en el plato del robot. *Insertar imagen herramienta puesta*
 
 
+El siguiente paso a desarrollar es el objeto de trabajo. Para definir el Workobject se realiza de forma análoga a la herramienta, se importa una geometría sobre la cual se vaya a trabajar, en este caso es el diseño de objeto generado previamente, que contiene las letras en relieve para facilitar el diseño de trayectorías, y se ubica en la estación aproximadamente en la posición real que va ocupar sobre el área de trabajo. Posteriormente, se accede a Posición inicial>Otros>Crear objeto de trabajo; y en la ventana que se abre sobre el árbol de procesos, se selecciona la opción Sistema de coordenadas de usuario>Sistema de coordenadas por puntos, y se despliega el menú, sobre el cual se selecciona la opción "Tres puntos" y se dispone a seleccionarlos en la geometría del objeto de trabajo, esto para definir el sistema coordenado sobre el cual se va a trabajar. La selección de los tres puntos es recomendable sobre las esquinas del objeto, comenenzando en una superior y rotando en sentido antihorario. El objeto entonces adquiere su marco de referencia con el eje z posicionado normalmente a la superficie de este. 
+
+Ya contando con la herramienta y el objeto de trabajo, se procede a definir las trayectorias para generar el código que se implementará en el robot. Para esto, primero es recomendable y adicionalmente requisito del informe, contar con una operación que genere el acercamiento desde Home a la pieza de trabajo para facilitar el posicionamiento del robot y sus artículaciones, y otra que lleve el robot a Home después del proceso. Otro par de consideraciones a tener en cuenta son:
+- La posición asignada como Home suele escogerse, en la vida real el robot tiene todas sus artículaciones en 0 grados a excepción de la quinta, que se posiciona a 30 grados. Para el presente caso la posición de Home se seleccionó como 0 grados en todas las articulaciones. 
+- Por ahora se van a utilizar dos tipos de "Target" o objetivos de posicionamiento a los cuales llegará el robot, y dos tipos de "Move" o movimientos que hace el robot para llegar a dicho Target.
+- El primer movimiento se trata de uno de tipo lineal, y en este el robot pasa entre targets, los cuales se denominan "Punto", el cual representa una ubicación en el espacio a la cual llegará la herramienta, y dicho punto tiene su propio sistema de referencia coordenado, con lo cual el robot se orienta para posicionar el TCP en el sistema del punto y quedar en la posición y orientación definida por el target. 
+- El segundo movimiento se trata de uno de tipo articular, en el cual el robot pasa de un estado de artículaciones a otro, llegando a unos targets denominados "Posición de ejes", en los cuales se coloca información sobre los grados a los cuales se van a posicionar las artículaciones del robot cuando se llegue a dicho target. 
+- zona y velocidad xd
+
+
 
 
 
